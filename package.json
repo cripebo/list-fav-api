@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "webpack",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/mysql": "^2.15.21",
+    "dotenv": "^16.0.0",
+    "ts-loader": "^9.2.8",
+    "ts-node-dev": "1.1.8",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "0.26.1",
+    "cors": "2.8.5",
+    "express": "4.17.3",
+    "morgan": "1.10.0",
+    "mysql": "2.18.1"
+  }
+}
